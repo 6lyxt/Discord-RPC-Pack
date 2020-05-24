@@ -24,7 +24,7 @@ chrome.runtime.sendMessage(extensionId, {mode: 'passive'}, function(response) {
         return {
           clientId: '707323113922101268',
             presence: {
-                  state: 'Watching',
+                  state: document.getElementsByClassName('tab active')[1].textContent,
                   details: document.getElementsByClassName('title')[0].textContent,
                   startTimestamp: todayI,
                   largeImageKey: "header",
