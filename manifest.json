@@ -20,6 +20,10 @@
       "matches": ["https://soundcloud.com/*"]
     },
     {
+      "js": ["extensionId.js", "Skribbl/main.js"],
+      "matches": ["https://skribbl.io/*"]
+    },
+    {
       "js": ["extensionId.js", "Twitch/main.js"],
       "matches": ["https://www.twitch.tv/*"]
     },
