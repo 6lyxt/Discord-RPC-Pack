@@ -6,4 +6,5 @@ rpc pack made for lolamtisch's discord rpc extension
 + added twitch support
 + added skribbl support
 + added netflix support
++ added genius support
 
